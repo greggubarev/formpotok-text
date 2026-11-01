@@ -13,7 +13,7 @@ An offline desktop app for printed Russian text in PDF, PNG, and JPEG files. It 
 - Exports a corrected document as TXT or combines several documents in a chosen order with optional headings.
 - Can save a reviewed document to a local reference set for CER and WER comparisons between OCR versions.
 
-Review is part of the document workflow, from source page to corrected file. See [how recognition works](docs/RECOGNITION.md) and the [OCR comparisons](docs/OCR_COMPARISONS.md). The published OCR measurements use synthetic pages, not a random sample of user documents.
+Review is part of the document workflow, from source page to corrected file. See [how recognition works](docs/RECOGNITION.md), [what changed and how to contribute improvements](docs/IMPROVING_OCR.md), and the [OCR comparisons](docs/OCR_COMPARISONS.md). These documents are in Russian. The published OCR measurements use synthetic pages, not a random sample of user documents.
 
 ## Source and setup
 
