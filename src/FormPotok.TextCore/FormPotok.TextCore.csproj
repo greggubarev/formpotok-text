@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\FormPotok.Ocr.Contracts\FormPotok.Ocr.Contracts.csproj" />
+    <Compile Include="..\FormPotok.Application\Contracts\IOcrRuntimeClient.cs" Link="Contracts\IOcrRuntimeClient.cs" />
+    <Compile Include="..\FormPotok.Infrastructure\OcrRuntime\*.cs" Link="OcrRuntime\%(Filename)%(Extension)" />
+    <Compile Include="..\FormPotok.PilotCore\Learning\*.cs" Link="Learning\%(Filename)%(Extension)" />
+    <Compile Include="..\FormPotok.PilotCore\LocalText\*.cs" Link="LocalText\%(Filename)%(Extension)" />
+  </ItemGroup>
+</Project>

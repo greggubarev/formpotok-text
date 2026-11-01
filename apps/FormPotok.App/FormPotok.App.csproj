@@ -1,0 +1,22 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0</TargetFramework>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AssemblyName>FormPotok.Text</AssemblyName>
+    <ApplicationIcon>Assets/formpotok-mark.ico</ApplicationIcon>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Avalonia" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Desktop" Version="12.0.4" />
+    <PackageReference Include="Avalonia.Themes.Fluent" Version="12.0.4" />
+    <ProjectReference Include="..\..\src\FormPotok.TextCore\FormPotok.TextCore.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <InternalsVisibleTo Include="FormPotok.App.UiSmoke.Tests" />
+    <Content Include="Assets/formpotok-mark.png" CopyToOutputDirectory="PreserveNewest" />
+    <Content Include="Assets/formpotok-mark.ico" CopyToOutputDirectory="PreserveNewest" />
+  </ItemGroup>
+</Project>

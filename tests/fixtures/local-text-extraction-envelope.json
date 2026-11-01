@@ -1,0 +1,147 @@
+{
+  "DocumentId": "sample-document",
+  "EngineName": "PaddleOCR/mobile-cpu",
+  "EngineVersion": "1.0",
+  "Pages": [
+    {
+      "PageNumber": 1,
+      "Width": 1600,
+      "Height": 1200,
+      "TextBlocks": [
+        {
+          "Id": "paddle-0001-0001",
+          "Text": "Заявление на выдачу справки",
+          "Confidence": 0.94,
+          "Polygon": [
+            {
+              "X": 1520,
+              "Y": 40
+            },
+            {
+              "X": 1520,
+              "Y": 240
+            },
+            {
+              "X": 1500,
+              "Y": 240
+            },
+            {
+              "X": 1500,
+              "Y": 40
+            }
+          ]
+        },
+        {
+          "Id": "paddle-0001-0002",
+          "Text": "Адрес: Самара, улица Мира, 10",
+          "Confidence": 0.7,
+          "Polygon": [
+            {
+              "X": 1480,
+              "Y": 40
+            },
+            {
+              "X": 1480,
+              "Y": 340
+            },
+            {
+              "X": 1460,
+              "Y": 340
+            },
+            {
+              "X": 1460,
+              "Y": 40
+            }
+          ]
+        }
+      ],
+      "TableBlocks": [],
+      "CoordinateFrame": "original-pixels",
+      "SelectedVariant": "rot90",
+      "SourceContentHash": "f7723a77e5581f06b04f3d0c5382ea7ebbf1b3a4b35d51c137b0b44a1365b146"
+    },
+    {
+      "PageNumber": 2,
+      "Width": 1200,
+      "Height": 1600,
+      "TextBlocks": [
+        {
+          "Id": "paddle-0002-0001",
+          "Text": "Список приложений",
+          "Confidence": 0.96,
+          "Polygon": [
+            {
+              "X": 40,
+              "Y": 80
+            },
+            {
+              "X": 240,
+              "Y": 80
+            },
+            {
+              "X": 240,
+              "Y": 100
+            },
+            {
+              "X": 40,
+              "Y": 100
+            }
+          ]
+        },
+        {
+          "Id": "paddle-0002-0002",
+          "Text": "Копия договора № 42",
+          "Confidence": 0.93,
+          "Polygon": [
+            {
+              "X": 40,
+              "Y": 120
+            },
+            {
+              "X": 340,
+              "Y": 120
+            },
+            {
+              "X": 340,
+              "Y": 140
+            },
+            {
+              "X": 40,
+              "Y": 140
+            }
+          ]
+        }
+      ],
+      "TableBlocks": [],
+      "CoordinateFrame": "original-pixels",
+      "SelectedVariant": "original",
+      "SourceContentHash": "f7723a77e5581f06b04f3d0c5382ea7ebbf1b3a4b35d51c137b0b44a1365b146"
+    }
+  ],
+  "Warnings": [
+    {
+      "Code": "TEXT_LAYER_EMPTY",
+      "Message": "The PDF text layer is empty, suspicious, or unsuitable for structured layout parsing, falling back to OCR."
+    },
+    {
+      "Code": "PADDLE_LOW_CONFIDENCE",
+      "Message": "Page 1: 1 blocks below 0.75 confidence."
+    },
+    {
+      "Code": "PADDLE_ROTATION_SELECTED",
+      "Message": "Page 1: selected variant rot90 with quality score 0.716."
+    }
+  ],
+  "Candidates": [],
+  "Artifacts": [
+    "artifacts\\paddle\\quality\\page-0001.json",
+    "artifacts\\paddle\\page-0001.json",
+    "artifacts\\paddle\\variants\\page-0001\\page-0001-rot90.jpg",
+    "artifacts\\paddle\\variants\\page-0001\\page-0001-rot270.jpg",
+    "artifacts\\paddle\\quality\\page-0002.json",
+    "artifacts\\paddle\\page-0002.json",
+    "artifacts\\rendered\\page-0001.png",
+    "artifacts\\rendered\\page-0002.png"
+  ],
+  "SourceContentHash": "f7723a77e5581f06b04f3d0c5382ea7ebbf1b3a4b35d51c137b0b44a1365b146"
+}

@@ -1,0 +1,16 @@
+bin/
+obj/
+.vs/
+output/
+dist/
+tmp/
+*.log
+**/__pycache__/
+*.py[cod]
+tools/ocr-sidecar/.venv/
+tools/ocr-sidecar/runtime/
+tools/ocr-sidecar/models/
+tools/python310/
+*.pfx
+*.pvk
+*.env

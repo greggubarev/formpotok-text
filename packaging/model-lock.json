@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 1,
+  "models": [
+    {
+      "name": "PP-OCRv5_mobile_det",
+      "revision": "0d63e78e2b680928f6b1747d76a08db6e645efb7",
+      "license": "apache-2.0",
+      "weightsSha256": "afa1820cb16c1fd0dad589d0f8b389139061c1ef6d68019685fd07be997dda5b",
+      "weightsBytes": 4692937
+    },
+    {
+      "name": "eslav_PP-OCRv5_mobile_rec",
+      "revision": "7553801264d3379d8d2e854971989e5e26c22e03",
+      "license": "apache-2.0",
+      "weightsSha256": "f11057b05d8517868bca505271278973d706600d9dcc184cbcf5c4512091c32b",
+      "weightsBytes": 7811519
+    },
+    {
+      "name": "PP-LCNet_x1_0_doc_ori",
+      "revision": "d3b95a6dff5fe8a94f2748e12b61cb26818a0df8",
+      "license": "apache-2.0",
+      "weightsSha256": "e8d6e7c5d264507e40e58a655779059d616b20d7441ea22047d829eb3931989c",
+      "weightsBytes": 6754166
+    },
+    {
+      "name": "UVDoc",
+      "revision": "16c3f0ea9c2f0c6a57e24160f7eeaa7574613fa3",
+      "license": "apache-2.0",
+      "weightsSha256": "810488899520e0da843b9bd9769ba4949f1c81e357f0eceb12d4a7da459c3eca",
+      "weightsBytes": 32054311
+    },
+    {
+      "name": "PP-LCNet_x1_0_textline_ori",
+      "revision": "cd237a44b0e359d4fe38310a416203cf7403faa5",
+      "license": "apache-2.0",
+      "weightsSha256": "0de2bcf996cf553e2b848dd7b1769dafffc6917b1ccdf55c1d8efe7909fbf743",
+      "weightsBytes": 6743918
+    }
+  ]
+}

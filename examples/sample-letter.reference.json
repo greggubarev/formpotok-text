@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "purpose": "diagnostic-only",
+  "dataPartition": "synthetic-diagnostic",
+  "countsTowardRealHoldoutQuota": false,
+  "countsTowardTrainingQuota": false,
+  "sources": [
+    {
+      "file": "sample-letter.png",
+      "sha256": "a231162f4f5dea6ecb5529f715baca0c3980e93e26830750b77650c7c0cabddf",
+      "byteLength": 34077,
+      "pageCount": 1,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "expectedText": "ЗАЯВЛЕНИЕ\n\nПрошу выдать справку о регистрации документа № 42 от 8 октября 2026 года.\nКонтактный отдел: архив.\n\nДата: 08.10.2026",
+          "marker": "регистрации документа № 42"
+        }
+      ]
+    },
+    {
+      "file": "sample-letter.jpg",
+      "sha256": "7a6b57733eb6af9820b4e01eb010842b2c946ef9b56df204df95e228cf1b63e3",
+      "byteLength": 104934,
+      "pageCount": 1,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "expectedText": "ЗАЯВЛЕНИЕ\n\nПрошу выдать справку о регистрации документа № 42 от 8 октября 2026 года.\nКонтактный отдел: архив.\n\nДата: 08.10.2026",
+          "marker": "регистрации документа № 42"
+        }
+      ]
+    },
+    {
+      "file": "sample-letter.pdf",
+      "sha256": "d4998c38793be01f70f6f72aba3121a7314ca9167193e4640c089418c180b15e",
+      "byteLength": 52376,
+      "pageCount": 1,
+      "pages": [
+        {
+          "pageNumber": 1,
+          "expectedText": "ЗАЯВЛЕНИЕ\n\nПрошу выдать справку о регистрации документа № 42 от 8 октября 2026 года.\nКонтактный отдел: архив.\n\nДата: 08.10.2026",
+          "marker": "регистрации документа № 42"
+        }
+      ]
+    }
+  ]
+}
